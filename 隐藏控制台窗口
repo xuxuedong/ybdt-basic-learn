@@ -1,0 +1,17 @@
+隐藏控制台窗口方式如下：
+
+1.对于c/c++程序，通过在头部加上如下一条语句，可以完全隐藏控制台窗口
+#pragma comment( linker, "/subsystem:\"windows\" /entry:\"mainCRTStartup\"" )
+虽然不知道是什么意思，但经过测试有效
+
+2.可以使用windows api来隐藏控制台窗口，但会一闪而过
+
+3.可以借助外部程序来隐藏窗口，不仅仅是控制台窗口，还可以是gui窗口，比如c/c++，vbs等等
+贴一段我写的vbs脚本：
+set wshShell=WScript.createObject("WScript.Shell")
+wshShell.run "start.bat",0
+将start.bat换为你想隐藏窗口的程序名
+
+参考链接：
+https://blog.csdn.net/lynch0571/article/details/33320551
+https://blog.csdn.net/bruce135lee/article/details/81068214
