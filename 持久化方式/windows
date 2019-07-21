@@ -1,0 +1,33 @@
+0：用户家目录下的启动文件夹（用户登陆自动运行）
+
+例如win7_ult_x64_zh-chs+360安全卫士+360杀毒下administrator用户的启动文件夹为
+"C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+
+GUI下将bat文件拷贝到此文件夹下会被360安全卫士拦截
+
+GUI下将bat文件的快捷方式拷贝到此文件夹下会被360安全卫士拦截
+
+CLI下将bat文件拷贝到此文件夹下
+copy .\test.bat "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+会被360安全卫士拦截
+
+CLI下将bat文件的快捷方式拷贝到此文件夹下
+copy .\test.bat.lnk "C:\Users\Administrator\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup"
+会被360安全卫士拦截
+
+
+
+1:修改组策略编辑器
+
+例如08_r2_std_zh-chs下
+windows+R-》gpedit.msc-》计算机配置-》windows 设置-》脚本（启动/关机）-》双击右侧的启动-》点击添加-》点击浏览选中文件-》点击确定
+重新启动后，在c盘下创建文件test.log并添加内容
+
+例如win7_ult_x64_zh-chs+360安全卫士+360杀毒下
+windows+R-》gpedit.msc-》计算机配置-》windows 设置-》脚本（启动/关机）-》双击右侧的启动-》点击添加-》点击浏览选中文件-》点击确定
+360安全卫士+360杀毒无提醒
+重新启动后，在c盘下创建文件test.log并添加内容
+
+参考链接：
+https://jingyan.baidu.com/article/6181c3e0f973b0152ef1530d.html
+https://blog.csdn.net/kongxx/article/details/80621573
