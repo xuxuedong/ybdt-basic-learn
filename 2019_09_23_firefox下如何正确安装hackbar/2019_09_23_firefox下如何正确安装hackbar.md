@@ -8,16 +8,13 @@
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/0.png)
 
-1：点击右上角带有设置图标的按钮
+1：点击右上角带有设置图标的按钮，选择“从文件安装附加组件”（选择文件98c9c7-fc13-4622-b08a-a18923469c1c}.xpi即可，xpi文件已被上传到此文件的同目录下）
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/1.png)
 
-2：选择“从文件安装附加组件”（选择文件98c9c7-fc13-4622-b08a-a18923469c1c}.xpi即可，xpi文件已被上传到此文件的同目录下）
+2：切记！！！切记！！！切记！！！一定记住要关闭插件的自动更新！！！，否则浏览器会自动更新插件到收费版本！！!
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/2.png)
-
-但是，切记！！！切记！！！切记！！！
-一定记住要关闭插件的自动更新！！！，否则浏览器会自动更新插件到收费版本！！!
 
 参考链接：
 https://mrxn.net/hacktools/617.html
