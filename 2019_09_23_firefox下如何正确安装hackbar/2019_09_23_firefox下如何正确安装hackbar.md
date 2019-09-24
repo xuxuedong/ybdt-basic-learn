@@ -2,9 +2,8 @@
 
 尝试更改hackbar，看是否能成功利用漏洞
 
-去网上寻找，发现可以用收费版（2.2.2）之前的版本2.1.3
+去网上寻找，发现可以用收费版（2.2.2）之前的版本2.1.3，使用步骤如下：
 
-使用方式：
 0：打开firefox附加组件
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/0.png)
