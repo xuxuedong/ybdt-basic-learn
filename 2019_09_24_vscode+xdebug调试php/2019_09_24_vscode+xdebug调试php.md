@@ -10,7 +10,7 @@ phpstudy2018->https://www.xp.cn/wenda/406.html
 
 thinkphp5.0.22完整版->http://www.thinkphp.cn/donate/download/id/1260.html
 
-xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll，
+xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll
 （注意，xdebug版本的选择是根据你的php版本，如下为我的php版本信息，5.6.27 + x86 + nts vc11）
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/0.png)
