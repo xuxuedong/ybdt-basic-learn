@@ -9,6 +9,7 @@
 但是，切记！！！切记！！！切记！！！
 一定记住要关闭插件的自动更新！！！，否则浏览器会自动更新插件到收费版本！！!
 https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/0.png
+https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/0.png
 https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/1.png
 https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_%E5%A6%82%E4%BD%95%E4%B8%BAfirefox%E5%AE%89%E8%A3%85hackbar/2.png
 
