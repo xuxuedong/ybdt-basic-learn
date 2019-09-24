@@ -10,13 +10,15 @@ phpstudy2018->https://www.xp.cn/wenda/406.html
 
 thinkphp5.0.22完整版->http://www.thinkphp.cn/donate/download/id/1260.html
 
-xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll，（注意，xdebug版本的选择是根据你的php版本，如下为我的php版本信息，5.6.27 + x86 + nts vc11）
+xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll，
+（注意，xdebug版本的选择是根据你的php版本，如下为我的php版本信息，5.6.27 + x86 + nts vc11）
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/0.png)
 
 安装vscode，一路下一步即可
 
-安装phpstudy，一路下一步即可，浏览器下访问http://127.0.0.1/，如下所示即安装成功
+安装phpstudy，一路下一步即可，浏览器下访问http://127.0.0.1/，
+如下所示即安装成功
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/1.png)
 
@@ -48,10 +50,12 @@ xdebug.remote_host = "127.0.0.1" ; 远程调试的ip地址，即你自己的本�
 
 vscode安装扩展“PHP Debug”
 
-vscode打开thinkphp项目文件夹（）
+vscode打开thinkphp项目文件夹（这里一定要先打开文件夹，否则下一步中点击设置图标会提示报错）
 
 点击vscode的debug图标，再点击设置图标（我这里由于已经生成过launch.json，所以设置图标会略微不同），会提示选择哪种语言，选择php，它会自动生成launch.json，修改其中的端口号为之前配置的端口号，如下图
+
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/4.png)
+
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/5.png)
 
 最后进行调试
