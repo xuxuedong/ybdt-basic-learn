@@ -10,12 +10,9 @@ phpstudy2018->https://www.xp.cn/wenda/406.html
 
 thinkphp5.0.22完整版->http://www.thinkphp.cn/donate/download/id/1260.html
 
-xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll，
-（注意，xdebug版本的选择是根据你的php版本，如下为我的php版本信息，5.6.27 + x86 + nts vc11）
+xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll，（注意，xdebug版本的选择是根据你的php版本，如下为我的php版本信息，5.6.27 + x86 + nts vc11）
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/0.png)
-
-
 
 安装vscode，一路下一步即可
 
@@ -32,11 +29,17 @@ xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2
 配置php.ini的xdebug模块，在php.ini文件末尾的[XDebug]部分中，配置xdebug模块，我这里的配置如下
 
 [XDebug]
+
 zend_extension = php_xdebug-2.5.5-5.6-vc11-nts.dll ; 如果没将php_xdebug-2.5.5-5.6-vc11-nts.dll放到上述目录下，需要指定全路径
+
 xdebug.remote_enable = 1 ; 开启远程调试功能
+
 xdebug.remote_autostart = 1 ; 这个配置是比较重要的一个配置
+
 xdebug.remote_handler = "dbgp" ; 暂时不清楚
+
 xdebug.remote_port = "9001" ; 默认端口号是9000，如果不配置端口号，一旦和其他端口号冲突，容易造成调试器假死状态
+
 xdebug.remote_host = "127.0.0.1" ; 远程调试的ip地址，即你自己的本机ip
 
 重启环境，重新打印phpinfo()，如果phpinfo()中带有xdebug，则安装成功，如下所示
@@ -51,4 +54,4 @@ vscode打开thinkphp项目文件夹（）
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/4.png)
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/5.png)
 
-最好进行调试
+最后进行调试
