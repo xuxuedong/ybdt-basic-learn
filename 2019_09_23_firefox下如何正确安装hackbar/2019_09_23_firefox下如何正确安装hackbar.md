@@ -16,5 +16,7 @@
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_23_firefox%E4%B8%8B%E5%A6%82%E4%BD%95%E6%AD%A3%E7%A1%AE%E5%AE%89%E8%A3%85hackbar/2.png)
 
+最后漏洞成功复现：）
+
 参考链接：
 https://mrxn.net/hacktools/617.html
