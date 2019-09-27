@@ -4,7 +4,8 @@ kali2019_x64_en-us下使用jdk11打开burpsuite时，提示可能会有问题，
 
 经查看，kali2019_x64_en-us下存在jdk8，且路径如下/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java
 
-破解版的burpsuite pro下载链接如下https://pan.baidu.com/s/1SE4dyITO2uT7kLOyzW17sA提取码fg63（链接永久有效），下载后进入其目录下
+破解版的burpsuite pro下载链接如下https://pan.baidu.com/s/1SE4dyITO2uT7kLOyzW17sA
+提取码fg63（链接永久有效），下载后进入其目录下
 
 执行如下命令/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java -jar ./burpsuite_pro_v2.1_BurpHelper.jar，如下图所示
 
