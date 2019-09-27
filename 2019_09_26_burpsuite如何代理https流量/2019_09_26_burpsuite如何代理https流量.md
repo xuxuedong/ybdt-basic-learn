@@ -24,8 +24,12 @@ burp下找到Proxy->Options->import/export ca certificate，如下图所示
 
 firefox下导入证书：
 
-privacy & security->certificates->view certificates->authorities->import，选择刚才导出的证书即可
+privacy & security->certificates，如下图所示
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_26_burpsuite%E5%A6%82%E4%BD%95%E4%BB%A3%E7%90%86https%E6%B5%81%E9%87%8F/2.png)
 
+view certificates->authorities->import，如下图所示
+
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_26_burpsuite%E5%A6%82%E4%BD%95%E4%BB%A3%E7%90%86https%E6%B5%81%E9%87%8F/3.png)
+
+选择刚才导出的证书即可
