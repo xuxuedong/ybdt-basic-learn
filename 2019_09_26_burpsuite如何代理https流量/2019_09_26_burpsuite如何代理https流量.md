@@ -18,8 +18,9 @@ burp下找到Proxy->Options->import/export ca certificate，如下图所示
 
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_26_burpsuite%E5%A6%82%E4%BD%95%E4%BB%A3%E7%90%86https%E6%B5%81%E9%87%8F/1.png)
 
-点击select file，指定文件名为cacer0.der，点击save，如下图所示
+点击select file，指定文件名为cacert0.der，点击save，如下图所示
 
+![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_26_burpsuite%E5%A6%82%E4%BD%95%E4%BB%A3%E7%90%86https%E6%B5%81%E9%87%8F/a.png)
 
 firefox下导入证书：
 
