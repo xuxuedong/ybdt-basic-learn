@@ -1,5 +1,7 @@
 系统：kali2019_x64_en-us
 
+浏览器：firefox
+
 burp下导出证书：
 
 方式0：
