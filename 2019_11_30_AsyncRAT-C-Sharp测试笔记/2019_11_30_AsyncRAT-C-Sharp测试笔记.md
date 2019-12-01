@@ -12,8 +12,6 @@
 
 被控端：xp_pro_x86_zh-chs
 
-
-
 软件安装测试结果：
 
 官网上提到了“AsyncRAT requires the .Net Framework v4 (client) and v4.6+ (server) to run.”
