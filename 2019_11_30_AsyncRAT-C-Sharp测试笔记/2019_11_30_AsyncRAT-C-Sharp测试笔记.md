@@ -10,6 +10,7 @@
 软件安装测试结果：
 官网上提到了“AsyncRAT requires the .Net Framework v4 (client) and v4.6+ (server) to run.”
 经测试，在win10下默认即可使用，但在win7和xp下，默认是没有.Net Framework v4的，所以执行后，如果客户机没装.Net Framework v4则会报错，如下图
+
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_11_30_AsyncRAT-C-Sharp%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0/0.png)
 
 免杀测试结果：
