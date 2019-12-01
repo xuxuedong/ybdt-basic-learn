@@ -26,3 +26,4 @@
 2：创建客户端时的第一步Connection部分，除了可以将服务端写死在客户端内，还可以使用第三方的pastebin，这种方式对于服务端有变更，但对客户端
 无法操作时，尤其有用（注：服务端可以监听在多个端口，所以客户端写死或者pastebin中也可使用多个端口）  
 3：持久化的方式，有一种方式（也可能只有这一种方式）是文件落地到%appdata%，然后注册表键“计算机\HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run”中添加值项，值为“文件落地的路径”，但是重启后会被defender查杀
+4：相比QuasarRAT，当前版本无键盘输入功能
