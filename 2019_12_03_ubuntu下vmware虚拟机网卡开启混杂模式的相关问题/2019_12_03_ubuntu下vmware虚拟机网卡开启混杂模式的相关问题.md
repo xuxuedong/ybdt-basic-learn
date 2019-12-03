@@ -9,4 +9,6 @@
 此时的权限是可以让虚拟机的网卡开启混杂模式的，至于为什么还提示，可能只是提示，并没有禁止，如果不确定的话可以执行  
 ifconfig -a来查看网卡是否处于混杂模式（查看是否有PROMISC），还可手动开启关闭  
 ifconfig eth0 promisc  
-ifconfig eth0 -promisc
+ifconfig eth0 -promisc  
+参考链接：  
+https://kb.vmware.com/s/article/287
