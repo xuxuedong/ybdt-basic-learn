@@ -1,0 +1,10 @@
+0：逻辑错误导致每个元素后都带有一个"\n"
+def main():
+    f = open("a.txt", "r");
+    lines = f.readlines();
+    tmp = [];
+    for line in lines:
+        if line.strip("\r\n") not in tmp: # 此处并没有改变line的值
+            tmp.append(line); # 所以此处添加到tmp的line还是带有"\n"的
+    f.close();
+    此段代码执行完，数组tmp中的每个元素后都有"\n"，这让我很困惑，后发现问题如上注释
