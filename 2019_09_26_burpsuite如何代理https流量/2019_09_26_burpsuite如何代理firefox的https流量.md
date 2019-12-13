@@ -1,7 +1,7 @@
 以下方式可用于windows和linux下  
-被测试在如下系统：
-系统：kali2019_x64_en-us  
-系统：win10_pro_x64_zh-chs_commando
+被测试在如下系统：  
+kali2019_x64_en-us  
+win10_pro_x64_zh-chs_commando
 
 
 burp下导出证书：
