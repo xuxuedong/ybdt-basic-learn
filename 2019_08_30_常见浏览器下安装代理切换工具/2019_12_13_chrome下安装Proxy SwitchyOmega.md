@@ -7,7 +7,7 @@
 1：打开chrome://extensions  
 2：开启开发者模式  
 3：选择载入解压后的文件夹  
-成功导入
+成功导入（这里要注意，解压后的文件夹如果被移动了，则chrome中的代理切换工具SwitchyOmega就会消失，所以解压后的文件夹不能动）
 
 参考链接：
 https://jingyan.baidu.com/article/219f4bf7a0b737de442d38e8.html
