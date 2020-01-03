@@ -8,7 +8,7 @@ https://www.pyinstaller.org/
 
 通过py2exe  
 通过官网下载安装包http://www.py2exe.org/  
-创建一个文件(setup.py)[https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2020_01_03_python%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E6%88%90exe/setup.py]
+创建一个文件[setup.py](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2020_01_03_python%E7%A8%8B%E5%BA%8F%E6%89%93%E5%8C%85%E6%88%90exe/setup.py)
 
 然后执行python setup.py py2exe  
 报错：ImportError: DLL load failed: %1 不是有效的 Win32 应用程序。  
