@@ -1,3 +1,6 @@
+app渗透测试学习来源：
+https://mp.weixin.qq.com/s/xtzfbmDQXHx_A9nvTVpgzQ
+
 个人总结“移动端渗透测试相比web段渗透测试”的不同之处：  
 
 0：如果对iphone上的app进行渗透测试，则需要进一步让iphone信任burp的证书  
