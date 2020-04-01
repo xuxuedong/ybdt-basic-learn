@@ -1,8 +1,0 @@
-可能是teamviewer本身的一个bug，使用远程桌面安装的teamviewer被控端，连接时会有这样的错误
-
-解决方式可以试下重启服务器，我的解决方式是连接teamviewer vpn，再远程桌面
-
-参考链接：
-https://www.zhihu.com/question/31003675
-http://blog.csdn.net/shepherd2010/article/details/72829615
-http://tieba.baidu.com/p/4918938040
