@@ -90,11 +90,11 @@ make install
 svn: error while loading shared libraries: libserf-1.so.1: cannot open shared object file: No such file or director  
 参照如下连接：  
 https://www.cnblogs.com/jkko123/p/6358461.html  
-> cd /etc/ld.so.conf.d/  
-> vi user-libs.conf  
+cd /etc/ld.so.conf.d/  
+vi user-libs.conf  
 把我们拷贝serf的文件的目录加上  
 /usr/local/lib  
-> ldconfig  
+ldconfig  
 仍旧报错  
 ldconfig: /usr/local/lib/libserf-1.so.1 is not a symbolic link  
 检查发现  
