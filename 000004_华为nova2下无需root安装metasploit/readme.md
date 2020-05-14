@@ -24,7 +24,7 @@ bundle install
 解决方式是执行如下指令：  
 apt update  
 apt -y upgrade  
-apt -y install git ruby ruby-dev make clang autoconf curl wget ncurses-utils libsqlite-dev postgresql postgresql-dev libpcap-dev libffi-dev libxslt-dev pkg-config
+apt -y install git ruby ruby-dev make clang autoconf curl wget ncurses-utils libsqlite-dev postgresql postgresql-dev libpcap-dev libffi-dev libxslt-dev pkg-config  
 git clone -b termux https://github.com/timwr/metasploit-framework.git  
 cd metasploit-framework  
 gem install bundler  
