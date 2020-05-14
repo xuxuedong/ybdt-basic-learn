@@ -1,6 +1,6 @@
 起因源于我通过ipad中的远程桌面客户端连接win10的时候，win10会自动锁屏，登陆win10后，ipad又会自动退出，反复登陆感觉太麻烦，故有此文  
 
-使用stascorp的rdpwrap，官网的仓库（https://github.com/stascorp/rdpwrap/）现在已经被关闭了，幸亏我之前存了一份  
+使用stascorp的rdpwrap，官网的仓库[https://github.com/stascorp/rdpwrap/]现在已经被关闭了，幸亏我之前存了一份  
 现将我备份的分享给大家：链接：https://pan.baidu.com/s/1pPy4w06zobXzIHrm5zbTeA 提取码：7cq5   
 
 解压后执行RDPConf.exe，在弹出的界面中取消勾选“Single session per user”，其他不用动，其中的Diagnostics部分会告诉你诊断结果，如果提示你未受支持，是因为你的远程桌面服务的版本大于它默认配置文件中所支持的最高版本，则需要用解压后的rdpwrap.ini（来自https://github.com/sebaxakerhtc/rdpwrap）替换C:\Program Files\RDP Wrapper\下的rdpwrap.ini  
