@@ -12,3 +12,5 @@
 参考链接：  
 https://blog.csdn.net/ljy1221/article/details/103731212  
 https://github.com/sebaxakerhtc/rdpwrap  
+
+最后，如果想ipad连接的时候，win10不锁屏，还可以使用第三方的远程管理软件如teamviewer、向日葵、anydesk  
