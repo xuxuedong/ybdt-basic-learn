@@ -14,3 +14,10 @@ https://blog.csdn.net/ljy1221/article/details/103731212
 https://github.com/sebaxakerhtc/rdpwrap  
 
 最后，如果想ipad连接的时候，win10不锁屏，还可以使用第三方的远程管理软件如teamviewer、向日葵、anydesk  
+
+
+2020/05/16更新  
+采用上述方式后，发现有诸多问题，如：  
+win10开机后，ubuntu连接win10，win10仍会自动锁屏  
+ipad连接win10后，不能看到win10的桌面，会进入另一个会话  
+故，卸载rdpwrap，改用anydesk作为替代，无上述问题  
