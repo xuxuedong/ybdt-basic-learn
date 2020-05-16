@@ -1,0 +1,39 @@
+{
+  "inbounds": [{
+      "listen": "0.0.0.0",
+      "port": 1080, // 监听端口
+      "protocol": "socks", // 入口协议为 SOCKS 5
+      "sniffing": {
+        "enabled": false,
+        "destOverride": ["http", "tls"]
+      },
+      "settings": {
+        "auth": "noauth"  //socks的认证设置，noauth 代表不认证，由于 socks 通常在客户端使用，所以这里不认证
+      }
+    }],
+
+  "inboundDetour": [{
+    "port": 8080,
+    "listen": "0.0.0.0",
+    "protocol": "http",
+    "settings": {
+        "timeout": 300,
+        "allowTransparent": false,
+        "userLevel": 0
+    }
+  }],
+
+  "outbounds": [{
+    "protocol": "vmess", // 出口协议
+      "settings": {
+        "vnext": [{
+            "address": "34.92.37.189", // 服务器地址，请修改为你自己的服务器 IP 或域名（18.162.134.245:443/34.92.37.189:444）
+            "port": 444,  // 服务器端口
+            "users": [{
+                "id": "81f1d77c-a7e4-49fa-9dea-69872439a18a",  // 用户 ID，必须与服务器端配置相同
+                "alterId": 64 // 此处的值也应当与服务器相同
+              }]
+          }]
+      }
+  }]
+}
