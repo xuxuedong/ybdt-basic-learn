@@ -12,3 +12,5 @@ unzip ./v2ray-linux-64.zip
 wget https://github.com/v2ray/v2ray-core/releases/download/v4.23.1/v2ray-linux-64.zip  
 unzip ./v2ray-linux-64.zip  
 编辑解压后的config.json  
+
+当前目录下给出参考的服务端及客户端的config.json  
