@@ -4,7 +4,7 @@
       "port": 1080, // 监听端口
       "protocol": "socks", // 入口协议为 SOCKS 5
       "sniffing": {
-        "enabled": false,  //想代理tor，此处需要改为false
+        "enabled": false,  //此处默认为enabled，想代理tor则需要改为false
         "destOverride": ["http", "tls"]
       },
       "settings": {
