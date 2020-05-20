@@ -1,6 +1,6 @@
 问题源于我登录公司oa，却提示需要flash player  
 
-首先可通过访问吉林省图书馆（jlplib.com.cn），测试当前浏览器是否有flash player  
+首先可通过访问吉林省图书馆（jlplib.com.cn），测试当前chrome浏览器是否有flash player  
 ubuntu下的chrome浏览器有flash player，默认是关闭的，但即使开启，访问博鸿科技oa系统时，仍不能访问，提示需要flash player  
 windows下的chrome浏览器有flash player，默认是关闭的，但即使开启，访问博鸿科技oa系统时，仍不能访问，提示需要flash player  
 
