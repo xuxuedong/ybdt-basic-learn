@@ -32,9 +32,9 @@ https://baijiahao.baidu.com/s?id=1606373985523544941&wfr=spider&for=pc
 ## 更新
 提示驱动问题，解决方案如下：  
 
-对win7启动盘写入驱动程序，过程参考https://www.gigabyte.cn/WebPage/-79/usb.html或https://www.zhihu.com/question/52060664，其中  
+对win7启动盘写入驱动程序，过程参考https://www.gigabyte.cn/WebPage/-79/usb.html 或 https://www.zhihu.com/question/52060664 ，其中  
 Windows USB Installation Tool的下载地址https://download.gigabyte.cn/FileList/Utility/mb_utility_windowsimagetool.zip  
 可是最后我的写入提示失败，经检查，我刻录的启动盘是iso是08非08 r2，怀疑可能因为这个  
-或
+或  
 刻录一个12 r2的系统盘，安装过程中提示系统的mbr分区表和u盘启动盘的gpt分区表不兼容  
 重新刻录，在分区表处选择mbr和gpt，重启启动，成功启动  
