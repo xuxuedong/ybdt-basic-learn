@@ -9,7 +9,7 @@ https://www.pyinstaller.org/
 创建一个文件setup.py，就4行，如下：  
 1：from distutils.core import setup  
 2：import py2exe  
-3：
+3：  
 4：setup(console=["hello.py"]); # 其中hello.py为你要打包的控制台应用程序名  
 然后执行python setup.py py2exe  
 报错：ImportError: DLL load failed: %1 不是有效的 Win32 应用程序。  
