@@ -22,3 +22,8 @@ https://www.pyinstaller.org/
 https://blog.csdn.net/puma004/article/details/40742953  
 https://blog.csdn.net/qq_28618765/article/details/72841934  
 https://blog.csdn.net/churximi/article/details/50381827  
+
+from distutils.core import setup
+import py2exe
+
+setup(console=["hello.py"]); # 其中hello.py为你要打包的控制台应用程序名
