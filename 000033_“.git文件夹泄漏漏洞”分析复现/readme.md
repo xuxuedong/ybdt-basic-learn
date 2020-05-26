@@ -13,4 +13,4 @@ python ./GitHack.py http://124.126.19.106:31232/.git/  #此时使用的是攻防
 
 尝试搭建漏洞环境  
 从github中下载项目，将.git文件夹拷贝/root/Desktop/下，执行脚本，脚本报错，根据提示应该放到一个网站目录下  
-从github中下载项目，将.git文件夹拷贝到/var/www/html/下，在kali下启动apache2，执行脚本，提示“not found”，原因未知  
+从github中下载项目，将.git文件夹拷贝到/var/www/html/下，在kali下启动apache2，执行脚本，提示“not found”，原因暂时不知  
