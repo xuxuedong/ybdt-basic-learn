@@ -6,3 +6,4 @@
 下载项目到本地后  
 cd ./GitHack-master  #项目使用python2编写，所以执行时要使用python2  
 python ./GitHack.py http://124.126.19.106:31232/.git/  #此时使用的是攻防世界中->web高级->lottery这道题的环境  
+执行完后，文件会被下载到如下目录下  
