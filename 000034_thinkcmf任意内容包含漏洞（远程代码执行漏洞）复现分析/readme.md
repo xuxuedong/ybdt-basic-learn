@@ -10,11 +10,12 @@ https://xz.aliyun.com/t/6626
 ISAPI模式：php作为一个模块，比如作为apache的一个模块  
 fastcgi模式：cgi模式的升级版，当作为一个独立的进程存在时，php-fpm是fastcgi的一种实现  
 windows下：  
-apache+php->
-iis+php->
+apache+php->ts  
+iis(fastcgi)+php->nts（php5.3起搭配fastcgi为主）  
+iis(ISAPI)+php->nts（php5.3以前搭配ISAPI为主）  
 linux下：  
-apache+php->
-nginx+php->
+apache+php->ts  
+nginx+php->nts  
 
 0x02  
 搭建环境时，第三步报错，提示“thinkcmf 安装报错 Driver.class.php 　LINE: 350”，drop database thinkcmf后，重新安装成功，原因未知
