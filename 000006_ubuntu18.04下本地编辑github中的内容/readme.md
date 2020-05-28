@@ -17,7 +17,7 @@ git commit -m "learn git and github"
 #将公钥拷贝到github的Settings->“SSH and GPG keys”  
 #在github中创建一个相同名称（git-tmp）的仓库  
 git remote add origin git@github.com:xuxuedong/git-tmp.git  
-git push -u origin master  #注意中国访问github可能会有些慢，挂上代理会更快  
+git push -u origin master  #注意中国访问github有时会有些慢，如果很慢可尝试挂上代理
 
 #克隆远程github仓库到本地  
 git clone git@github.com:xuxuedong/yibudengtian-ctf-db.git  
