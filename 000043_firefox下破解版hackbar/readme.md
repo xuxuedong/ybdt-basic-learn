@@ -5,4 +5,4 @@
 打开Add-ons-》点击Tools for all add-ons（就是一个设置的图标）-》install add-on from file  
 文件已经被我上传到当前目录下，文件来自：https://github.com/ox01024/hackbar_crack
 
-安装后测试发现，无上上述问题，原本确实好用哈！
+安装后测试发现，无上述问题，原版确实好用哈！
