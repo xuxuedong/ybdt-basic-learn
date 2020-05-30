@@ -1,23 +1,25 @@
 实验环境如下：  
-08_r2_dat_zh-chs  
-vscode1.38.1(system setup)  
-phpstudy2018  
-thinkphp5.0.22完整版->http://www.thinkphp.cn/donate/download/id/1260.html  
-xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll  
+1、08_r2_datacenter_zh-chs  
+2、vscode1.38.1(system setup)  
+3、phpstudy2018  
+4、thinkphp5.0.22完整版->http://www.thinkphp.cn/donate/download/id/1260.html  
+5、xdebug(php_xdebug-2.5.5-5.6-vc11-nts.dll)->https://xdebug.org/files/php_xdebug-2.5.5-5.6-vc11-nts.dll  
 （注意，xdebug版本的选择是根据你的php版本，我的php版本信息为：5.6.27 + x86 + nts vc11，所以选择上述版本）  
 可通过phpinfo()来查看，如下图  
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/0.png)
 
+0x00 安装vscode、phpstudy、thinkphp  
 安装vscode，一路下一步即可  
 安装phpstudy，一路下一步即可，浏览器下访问http://127.0.0.1/  
 如下所示即安装成功  
-![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/1.png)
-
+![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/1.png)  
 将thinkphp5.0.22完整版解压至phpstudy的web目录下，我这里是解压到C:\phpStudy\PHPTutorial\WWW\tp5022下，浏览器下访问http://127.0.0.1/tp5022/public/， 如下所示即安装成功  
 ![image](https://github.com/xuxuedong/YBDTBlog_Security/blob/master/2019_09_24_vscode%2Bxdebug%E8%B0%83%E8%AF%95php/2.png)
 
+0x01 安装配置xdebug  
 将下载下来的php_xdebug-2.5.5-5.6-vc11-nts.dll放到php的扩展目录下，即php对应的ext文件夹下，我这里是C:\phpStudy\PHPTutorial\php\php-5.6.27-nts\ext下  
-配置php.ini，在php.ini文件末尾的[XDebug]部分中，配置xdebug模块，我这里的配置如下  
+配置php.ini，在php.ini文件末尾的[XDebug]部分中，配置xdebug模块，我这里的配置如下
+
 [XDebug]  
 zend_extension = php_xdebug-2.5.5-5.6-vc11-nts.dll ; 如果没将php_xdebug-2.5.5-5.6-vc11-nts.dll放到上述目录下，需要指定全路径  
 xdebug.remote_enable = 1 ; 开启远程调试功能  
