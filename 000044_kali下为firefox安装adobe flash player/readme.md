@@ -9,3 +9,6 @@ sudo cp -r usr/ /usr
 
 访问www.jlplib.com.cn  
 能够成功访问flash部分
+
+参考链接：  
+https://null-byte.wonderhowto.com/how-to/install-flash-kali-linux-2-0-rolling-0171211/
