@@ -1,4 +1,5 @@
-单击右键->创建启动器  
+空白处单击右键->创建启动器，内容如下：
+
 名称：burpsuite  
 注释：（可以不用填）  
 命令：bash /usr/bin/start-burpsuite.sh  
