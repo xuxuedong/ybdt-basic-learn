@@ -1,4 +1,4 @@
-答墨者中微信投票的一道题，地址如下：  
+墨者中微信投票的一道题，地址如下：  
 https://www.mozhe.cn/bug/detail/WTNpdGxUS3l4dG9uMFF6ZEs3OEJCdz09bW96aGUmozhe
 
 2个考点：  
