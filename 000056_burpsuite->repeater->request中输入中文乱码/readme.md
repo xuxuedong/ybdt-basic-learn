@@ -11,3 +11,8 @@
 为了一劳永逸，不至于以后在burpsuite pro v2.1.04破解版和burpsuite_community_windows-x64_v2020_5_1.exe切换，网上搜索最新版的破解版，搜到如下这篇文章  
 https://xcxmiku.com/archives/38a7a949/
 里面提供了burpsuite v2020.5.1破解版，经校验，SHA256都正确，本以为还需要激活一次，结果直接执行start.vbs就可用
+
+【关于下载】  
+原文中是用的百度云盘分享的文件，我当时下载超级慢，最后实在不想等了，就办了超级会员，为了避免各位同行有同样问题，这里使用天翼云分享给大家，本人测试发现天翼云还是较快的  
+https://cloud.189.cn/t/VfiyyeYZnaQf (访问码:7xtq)  
+如果觉得下载帮助了你，请给个star
