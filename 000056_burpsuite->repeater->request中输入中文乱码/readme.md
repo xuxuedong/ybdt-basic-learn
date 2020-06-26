@@ -8,6 +8,6 @@
 
 下载最新版的burpsuite_community_windows-x64_v2020_5_1.exe，尝试后发现在repeater->request中输入中文时，不乱码，怀疑可能是官方在某个版本中修复了中文乱码的问题，我之前用的是burpsuite pro v2.1.04破解版，于是我下载了burpsuite_community_windows-x64_v2_1_04.exe，测试后发现乱码，由此可见，官方应该是在v2.1.04之后的某个版本修复了中文乱码的问题
 
-网上搜到如下这篇文章  
+为了一劳永逸，不至于以后在burpsuite pro v2.1.04破解版和burpsuite_community_windows-x64_v2020_5_1.exe切换，网上搜索最新版的破解版，搜到如下这篇文章  
 https://xcxmiku.com/archives/38a7a949/
 里面提供了burpsuite v2020.5.1破解版，经校验，SHA256都正确，本以为还需要激活一次，结果直接执行start.vbs就可用
