@@ -22,8 +22,11 @@ git push -u origin master  #注意中国访问github有时会有些慢，如果�
 #克隆远程github仓库到本地  
 git clone git@github.com:xuxuedong/yibudengtian-ctf-db.git  
 git rm -r 2019_12_02_xxe靶机渗透学习笔记/  
+cp ../ybdt-opts/* ./  
+git add ./2020-*  
 git commit -m "arrange the file"  
-git push origin master  #注意中国访问github可能会有些慢，挂上代理会更快  
+git push origin master#注意中国访问github可能会有些慢，挂上代理会更快
+
 
 参考链接：  
 https://blog.csdn.net/u012526120/article/details/49401871  
