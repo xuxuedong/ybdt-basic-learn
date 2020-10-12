@@ -1,4 +1,4 @@
-复习了一下linux下命令ln的用法：  
+复习一下linux下命令ln的用法：  
 ln target link_name  
 ln /bin/ping#创建硬链接到当前目录  
 ln /bin/ping ./#创建硬链接到指定目录  
