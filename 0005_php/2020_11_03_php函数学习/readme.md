@@ -1,5 +1,7 @@
-trim  
-<?php echo " hello";echo trim(" hello");?>  
+trim
+```
+<?php echo " hello";echo trim(" hello");?>
+```
 ![image](./0.png)  
 默认情况下，在首尾去掉的字符包括：普通空格符、回车、换行、值表符、垂直制表符、空字符
 
