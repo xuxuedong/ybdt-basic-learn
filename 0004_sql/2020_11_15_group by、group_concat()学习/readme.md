@@ -13,3 +13,10 @@ select id,user from bugaifade group by id;
 ![image](./2.png)  
 同理，将函数count()换成group_concat()即为group_concat()用法，如下图  
 ![image](./3.png)  
+
+参考链接：  
+https://www.runoob.com/mysql/mysql-group-by-statement.html  
+https://www.w3schools.com/sql/func_mysql_count.asp  
+https://www.w3schools.com/sql/sql_groupby.asp  
+https://www.w3resource.com/mysql/aggregate-functions-and-grouping/aggregate-functions-and-grouping-group_concat.php  
+https://segmentfault.com/a/1190000004844113
