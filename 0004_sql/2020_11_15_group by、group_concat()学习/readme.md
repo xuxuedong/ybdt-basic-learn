@@ -1,4 +1,4 @@
-group by语句解释  
+# group by解释  
 有这样一个表，如下  
 ![image](./0.png)  
 直接执行
@@ -12,6 +12,7 @@ select id,user from bugaifade group by id;
 同理，将函数count()换成group_concat()即为group_concat()用法，如下图  
 ![image](./3.png)  
 
+# group_concat()解释
 group_concat()还可用在如下情况中，当从表的一个字段中选出所有值时  
 ![image](./4.png)  
 可使用group_concat()将多行值连接为一行  
