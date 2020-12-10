@@ -20,3 +20,9 @@ Icon=path_to_vpnui48.png
 好吧，幸运的把问题解决了  
 
 wps在/usr/share/applications/下有配置文件，之前一直不能固定，用上述同样的方法也可固定
+
+上述操作执行完是能将Cisco AnyConnect固定到侧边栏，但每次执行后会启动2个图标，有点烦人，解决方案如下  
+启动软件后执行：xprop|grep "WM_CLASS"，鼠标光标会变成十字准心，点击已经打开的软件界面。将结果的第一个字符串填入 StartupWMClass
+
+参考链接：  
+https://ld246.com/article/1566260308576
