@@ -17,4 +17,6 @@ Icon=path_to_vpnui48.png
 ![image](./0.png)  
 右键点击图标，竟然出现了“固定到收藏夹的选项”，如下图  
 ![image](./1.png)  
-好了，幸运的把问题解决了
+好吧，幸运的把问题解决了  
+
+wps在/usr/share/applications/下有配置文件，之前一直不能固定，用上述同样的方法也可固定
