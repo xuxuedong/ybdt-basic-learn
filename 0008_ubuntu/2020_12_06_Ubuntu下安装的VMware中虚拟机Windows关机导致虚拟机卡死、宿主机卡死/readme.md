@@ -18,3 +18,9 @@
 https://www.cnblogs.com/fantasy01/p/4242926.html  
 https://blog.csdn.net/qq_34646546/article/details/86561183  
 https://www.jianshu.com/p/af74eb637e49
+
+# 2020/12/14更新：  
+每次挂起虚拟机即可，不用关闭虚拟机
+
+参考链接：  
+https://blog.csdn.net/y2020520/article/details/107072355#commentBox
