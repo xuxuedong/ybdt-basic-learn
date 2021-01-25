@@ -33,6 +33,3 @@ sudo apt install fcitx fcitx-googlepinyin
 8、firefox登录账户来同步浏览器工具
 删除书签工具栏多余的书签，遵照之前的火狐定制配置，删除多余组件，调整新装组件的顺序
 
-
-开机自动开启终端更新系统
-
