@@ -26,5 +26,13 @@ Settings（设置）->Appearance（外观）->Fonts（字体）->DPI改为150
 6、如何关闭chrome提示的keyring？
 右键点击桌面的chrome launcher，在Command中添加选项“--password-store=basic”，最终选项为“/usr/bin/google-chrome-stable %U --password-store=basic”
 
+7、安装中文输入法
+sudo apt install fcitx fcitx-googlepinyin
+打开Fcitx Configuration -> 点击坐下加“+” -> 取消勾选仅选择“only show current language” -> 添加中文
+
+8、firefox登录账户来同步浏览器工具
+删除书签工具栏多余的书签，遵照之前的火狐定制配置，删除多余组件，调整新装组件的顺序
+
+
 开机自动开启终端更新系统
 
