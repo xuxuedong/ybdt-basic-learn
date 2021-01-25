@@ -23,8 +23,8 @@ sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/ -o subtype=vmhgfs-fuse,allow_other
 5、终端中的字体非常小，太累眼睛
 Settings（设置）->Appearance（外观）->Fonts（字体）->DPI改为150
 
-6、
-
+6、如何关闭chrome提示的keyring？
+右键点击桌面的chrome launcher，在Command中添加选项“--password-store=basic”，最终选项为“/usr/bin/google-chrome-stable %U --password-store=basic”
 
 开机自动开启终端更新系统
 
