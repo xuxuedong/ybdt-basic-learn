@@ -17,7 +17,7 @@ dpkg -i ./google-chrome-stable_current_amd64.deb
 通过vmware设置共享目录
 sudo apt install open-vm-tools-desktop fuse
 vmware-hgfsclient查看一下
-sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/ -o subtype=vmhgfs-fuse,allow_other
+sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/ -o subtype=vmhgfs-fuse,allow_other,nonempty
 将“sudo /usr/bin/vmhgfs-fuse .host:/ /mnt/ -o subtype=vmhgfs-fuse,allow_other”添加到~/.zshrc（注意最新版是ZSH）
 
 5、终端中的字体非常小，太累眼睛
