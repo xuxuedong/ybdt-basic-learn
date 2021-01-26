@@ -1,4 +1,4 @@
-0、通过设置，执行sudo时不用输入密码
+0、设置执行sudo时不用输入密码
 su - root
 chmod u+w /etc/sudoers
 将对应行改为：%sudo ALL=(ALL:ALL) NOPASSWD:ALL
