@@ -48,3 +48,6 @@ Command:
 Working Directory:
 Icon:（从Images Files中选择图像）
 其他启动器照此创建
+
+9、重新安装AWVS
+参照：https://github.com/ybdt/pentest-hub/blob/main/2021_01_26_AWVS%E7%A0%B4%E8%A7%A3%E7%89%88%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97/readme.md
