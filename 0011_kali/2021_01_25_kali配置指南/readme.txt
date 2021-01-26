@@ -39,7 +39,8 @@ sudo apt install fcitx fcitx-googlepinyin
 7、firefox登录账户来同步浏览器工具
 删除书签工具栏多余的书签，遵照之前的火狐定制配置，删除多余组件，调整新装组件的顺序
 
-8、把全部工具拷贝过去
+8、工具迁移
+创建文件夹kali-tool-backup-2021_01_26-32_item，再将要拷贝的文件及文件夹放到创建的文件夹中，最后tar -zcvf ./kali-tool-backup-2021_01_26-32_item.tar.gz ./kali-tool-backup-2021_01_26-32_item/
 burp需要进行首次配置参考：https://github.com/ybdt/pentest-hub/blob/main/2021_01_26_burpsuite%E6%BF%80%E6%B4%BB%E9%85%8D%E7%BD%AE%E6%B5%81%E7%A8%8B/readme.md
 创建burp启动器，添加以下4项即可
 Name:
