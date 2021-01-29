@@ -1,7 +1,6 @@
 命令行下测试发现，mysql中的sql语句需要以分号结尾  
-![image](./0.png)
-
-当进行联合查询注入的时候，需要执行如下语句
+![image](./0.png)  
+在命令行下进行联合查询注入测试，需要执行如下语句
 ```
 select user from test0 where id='1' union select version();#';
 ```
