@@ -4,8 +4,9 @@
 ```
 select user from test0 where id='1' union select version();#';
 ```
-也就是注释符号前需要加个分号
-
+如下图  
+![image](./1.png)  
+也就是注释符号前需要加个分号  
 可是通常的sql注入payload
 ```
 ' union select version()#
