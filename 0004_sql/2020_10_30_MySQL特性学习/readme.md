@@ -10,6 +10,3 @@ MySQL中可用字符串的十六进制形式代替它本身，比如正常的查
 参考链接：  
 https://blog.csdn.net/amber_o0k/article/details/81563321  
 https://www.w3resource.com/mysql/string-functions/mysql-unhex-function.php
-
-2、可用&&代替and，如下图  
-![image](./4.png)
