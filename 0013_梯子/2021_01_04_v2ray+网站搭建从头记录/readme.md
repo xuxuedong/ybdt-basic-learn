@@ -13,7 +13,9 @@ apt install php7.2-cli php7.2-fpm php7.2-mysql php7.2-json php7.2-opcache php7.2
 
 安装配置WEB服务器  
 apt install nginx  
-/etc/nginx/nginx.conf会include /etc/nginx/conf.d/*.conf;和include /etc/nginx/sites-enabled/*;  
+```
+/etc/nginx/nginx.conf会include /etc/nginx/conf.d/*.conf;和include /etc/nginx/sites-enabled/*; 
+```
 我的配置一开始放到了/etc/nginx/conf.d/ybdt.conf中，后来放到了/etc/nginx/sites-enabled/default中  
 配置文件出错，fastcgi_pass unix:/var/run/php/php7.2-fpm.sock;写成了fastcgi_pass unix:/var/run/php/php7.0-fpm.sock;导致访问网站502，排查了很长时间
 
