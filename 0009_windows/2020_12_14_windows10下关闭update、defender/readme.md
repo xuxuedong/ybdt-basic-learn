@@ -1,4 +1,12 @@
-关闭defender：  
+win10_1703_pro_x64_zh-cn关闭update：  
+services.msc->Windows Update->启动类型（禁用）->恢复（第一次失败、第二次失败、后续失败均无操作）  
+重启
+
+win10_1703_pro_x64_zh-cn关闭defender：  
+gpedit.msc->计算机配置->管理模板->Windows 组件->Windows Defender 防病毒程序->关闭 Windows Defender 防病毒程序（配置为已启用）  
+重启
+
+对于新版关不掉的defender，关闭方案：  
 1、尝试通过服务关闭：  
 找到服务Windows Defender Antivirus Service后，“停止”按钮是灰色的，不能点击  
 2、尝试通过组策略关闭：  
