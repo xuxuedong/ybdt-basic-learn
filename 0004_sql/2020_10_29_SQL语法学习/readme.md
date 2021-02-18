@@ -8,3 +8,7 @@ https://www.w3schools.com/sql/sql_where.asp
 
 2、关于分号  
 分号的作用是分隔多条SQL语句，有些数据库要求分号，如MySQL，有些数据库不要求分号，如MS Access、SQL Server 2000
+
+3、xml操作相关  
+extractvalue：从xml文档中提取数据  
+updatexml：更新xml文档中的数据
