@@ -12,3 +12,11 @@ https://www.w3schools.com/sql/sql_where.asp
 3、xml操作相关  
 extractvalue：从xml文档中提取数据  
 updatexml：更新xml文档中的数据
+
+4、字符串连接  
+concat->concat(str1, str2, ..., strn)：连接多个字符串  
+concat_ws->concat("连接符", str1, str2, ... strn)：使用连接符连接多个字符串
+
+5、字符串切割  
+substr->substr(s, start, length)：从字符串s的start位置（位置从1开始计数），截取length长度  
+substring：用法、功能完全等同于substr
