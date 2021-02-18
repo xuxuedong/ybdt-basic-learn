@@ -10,8 +10,8 @@ https://www.w3schools.com/sql/sql_where.asp
 分号的作用是分隔多条SQL语句，有些数据库要求分号，如MySQL，有些数据库不要求分号，如MS Access、SQL Server 2000
 
 3、xml操作相关  
-extractvalue(anything, "/x/xx/xxx")：从xml文档中提取数据  
-updatexml(anything, "/x/xx/xxx", andthing)：更新xml文档中的数据
+extractvalue(anything, "/x/xx/xxx")：从xml文档中提取数据，需要注意extractvalue能查询的最大长度为32位  
+updatexml(anything, "/x/xx/xxx", andthing)：更新xml文档中的数据，需要注意extractvalue能查询的最大长度为32位
 
 4、字符串连接  
 concat(str1, str2, ..., strn)：连接多个字符串  
