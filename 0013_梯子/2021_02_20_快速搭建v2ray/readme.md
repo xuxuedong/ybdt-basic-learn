@@ -81,3 +81,7 @@ vim ./config.json
     }
 }
 ```
+
+参考链接：  
+https://www.v2fly.org/guide/start.html  
+https://www.v2fly.org/awesome/tools.html
