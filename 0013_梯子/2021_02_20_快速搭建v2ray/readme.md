@@ -81,8 +81,8 @@ vim ./config.json
     }
 }
 ```
-linux下借助服务实现开机自启  
-windows下借助nssm实现监控且开机自启
+linux：借助服务实现开机自启，安装方式选择以服务的形式安装，参考：https://github.com/v2fly/fhs-install-v2ray  
+windows：借助nssm实现监控且开机自启，安装方式选择自解压即可
 
 参考链接：  
 https://www.v2fly.org/guide/start.html  
