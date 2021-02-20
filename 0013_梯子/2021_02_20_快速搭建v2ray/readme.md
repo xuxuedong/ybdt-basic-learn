@@ -81,6 +81,8 @@ vim ./config.json
     }
 }
 ```
+linux下借助服务实现开机自启  
+windows下借助nssm实现监控且开机自启
 
 参考链接：  
 https://www.v2fly.org/guide/start.html  
