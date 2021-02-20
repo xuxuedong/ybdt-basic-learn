@@ -5,8 +5,7 @@ mkdir v2ray-v4.31.0
 wget https://github.com/v2fly/v2ray-core/releases/download/v4.31.0/v2ray-linux-64.zip  
 unzip ./v2ray-linux-64.zip  
 rm ./v2ray-linux-64.zip  
-cp ./config.json ./config.json.origin  
-rm ./config.json  
+mv ./config.json ./config.json.origin  
 vim ./config.json
 ```
 {
@@ -30,7 +29,7 @@ vim ./config.json
     ]
 }
 ```
-修改端口和id，并启动v2ray
+修改端口和id，全路径后台启动v2ray
 
 客户端配置更改为
 ```
