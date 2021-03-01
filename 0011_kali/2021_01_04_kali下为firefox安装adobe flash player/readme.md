@@ -5,7 +5,7 @@ mkdir ./tmp
 unzip ./flash_player_npapi_linux.x86_64.tar.gz -d ./tmp  
 cd ./tmp  
 cp ./libflashplayer.so /usr/lib/mozilla/plugins/  
-sudo cp -r usr/ /usr
+sudo cp -r ./usr/* /usr/
 
 访问www.jlplib.com.cn  
 能够成功访问flash部分
