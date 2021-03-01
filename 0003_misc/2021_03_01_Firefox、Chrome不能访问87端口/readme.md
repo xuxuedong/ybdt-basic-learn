@@ -8,6 +8,10 @@ Firefox、Chrome出于安全考虑，限制了对某些端口的访问
 页面刷新即可访问  
 2、Chrome  
 linux下配置launcher，给launcher加个选项“--explicitly-allowed-ports=87,6666”  
+windows下配置快捷方式，将启动目标改为：  
+```
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --explicitly-allowed-ports="87,6666"
+```
 页面刷新即可访问
 
 参考链接：  
