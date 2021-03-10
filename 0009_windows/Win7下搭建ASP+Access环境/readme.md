@@ -12,9 +12,9 @@ https://blog.csdn.net/simpleshao/article/details/88738586
 参考链接：https://bbs.csdn.net/topics/50064352
 
 # 由于中间尝试过很多命令，不确定以下命令是否起作用
-WINDOWS\temp文件夹的权限也要相同设置以下
+1、WINDOWS\temp文件夹的权限也要相同设置以下
 
-开启32位应用程序支持  
+2、开启32位应用程序支持  
 ```
 Cscript C:\inetpub\adminscripts\adsutil.vbs SET W3SVC/AppPools/Enable32bitAppOnWin64 1
 ```
