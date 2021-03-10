@@ -8,7 +8,8 @@ https://blog.csdn.net/simpleshao/article/details/88738586
 
 [Microsoft][ODBC Microsoft Access 驱动程序] 不能更新。数据库或对象为只读。  
 修改access数据库文件所在目录的权限，创建用户Everyone，并为Everyone分配所有权限  
-参考链接：https://bbs.csdn.net/topics/50064352  
+参考链接：https://bbs.csdn.net/topics/50064352
+
 开启32位应用程序支持（由于中间尝试过很多命令，不确定以下命令是否起作用）  
 ```
 Cscript C:\inetpub\adminscripts\adsutil.vbs SET W3SVC/AppPools/Enable32bitAppOnWin64 1
