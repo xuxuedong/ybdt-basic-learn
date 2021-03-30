@@ -1,4 +1,4 @@
-使用SOCKS5代理，升级pip时会报错，使用HTTP代理，升级pip时则不会报错
+#### 使用SOCKS5代理，升级pip时会报错，使用HTTP代理，升级pip时则不会报错
 
 使用HTTP代理
 ```
