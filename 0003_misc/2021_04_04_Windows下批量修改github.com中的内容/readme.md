@@ -3,8 +3,7 @@
 #### 1、下载GitHub Desktop  
 #### 2、如果不能clone仓库的话，需要为GitHub Desktop配置代理
 ```
-在c:\users\ybdt\.gitconfig中添加如下部分：
-
+#在c:\users\ybdt\.gitconfig中添加如下部分：
 [http]
     proxy = socks5://127.0.0.1:1080
 [https]
