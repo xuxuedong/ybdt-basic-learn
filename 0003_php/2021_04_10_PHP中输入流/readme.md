@@ -4,13 +4,11 @@ $_POST 与 php://input
 2、只要Content-Type不为multipart/form-data，php://input会填入post数据。
 3、仅当Content-Type为application/x-www-form-urlencoded且提交方法是POST方法时，$_POST数据与php://input数据才是一致的。
 ```
-
 $HTTP_RAW_POST_DATA 与 php://input
 ```
 1、php://input可以读取没有处理过的POST数据。相较于$HTTP_RAW_POST_DATA而言，它给内存带来的压力较小。
 2、$HTTP_RAW_POST_DATA（This feature has been DEPRECATED as of PHP 5.6.0. 被废弃了，查看官方文档）
 ```
-
 1、php://input可以读取http entity body中指定长度的值，由Content-Length指定长度，不管是POST方式或者GET方法提交过来的数据。但是，一般GET方法提交数据时，http request entity body部分都为空。  
 2、php://input与$HTTP_RAW_POST_DATA读取的数据是一样的，都只读取Content-Type不为multipart/form-data的数据。  
 3、Content-Type仅在取值为application/x-www-data-urlencoded和multipart/form-data两种情况下，PHP才会将http请求数据包中相应的数据填入全局变量$_POST  
