@@ -7,5 +7,16 @@ In text mode, the default when reading is to convert platform-specific line endi
 the default is to convert occurrences of \n back to platform-specific line endings.
 ```
 
+以后这段代码可以不用了
+```
+if platform.system() == "Windows":
+    linefeed = "\r\n";
+elif platform.system() == "Linux":
+    linefeed = "\n";
+else:
+    print("Unknown platform, exiting...");
+    exit();
+```
+
 参考链接：  
 https://docs.python.org/3.8/tutorial/inputoutput.html#reading-and-writing-files
