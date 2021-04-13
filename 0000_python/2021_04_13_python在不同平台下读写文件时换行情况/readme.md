@@ -3,7 +3,8 @@ python3.8中
 
 官网文档：
 ```
-In text mode, the default when reading is to convert platform-specific line endings (\n on Unix, \r\n on Windows) to just \n. When writing in text mode, the default is to convert occurrences of \n back to platform-specific line endings.
+In text mode, the default when reading is to convert platform-specific line endings (\n on Unix, \r\n on Windows) to just \n. When writing in text mode, 
+the default is to convert occurrences of \n back to platform-specific line endings.
 ```
 
 参考链接：  
